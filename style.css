@@ -6,9 +6,9 @@ body {
   top: 0 !important;
 }
 
-/* Make body text dark for good contrast */
+/* Make all body text very dark for high contrast */
 body {
-  color: #222; /* Very dark gray text */
+  color: #111; /* Almost black text */
   background-color: #fff; /* White background */
 }
 
@@ -25,9 +25,10 @@ body {
   color: #aaa;
 }
 
-/* Make links and navbar links dark for contrast */
+/* Make all links and navbar links very dark for contrast */
 a, .nav-link, .navbar-brand {
-  color: #111 !important;
+  color: #000 !important; /* Pure black links */
+  text-decoration: underline; /* Underline for readability */
 }
 
 .nav-link {
@@ -41,6 +42,12 @@ a, .nav-link, .navbar-brand {
 .nav-link:hover,
 .nav-link.active {
   color: #ccc !important;
+}
+
+/* Active nav link style */
+.nav-link.active {
+  color: #0056b3 !important; /* High contrast blue */
+  font-weight: bold;
 }
 
 /* Testimonials Section */
@@ -67,7 +74,7 @@ a, .nav-link, .navbar-brand {
 /* Optional: Add a subtle background to testimonial cards for contrast */
 .testimonial-card {
   background-color: #f9f9f9;
-  border: 1px solid #ddd;
+  border: 1px solid #bbb;
 }
 
 .testimonial-number {
@@ -131,9 +138,9 @@ a, .nav-link, .navbar-brand {
   color: #aaaaaa;
 }
 
-/* Make testimonial text darker */
+/* Make testimonial text, author, and location very dark */
 .testimonial-text, .testimonial-author, .testimonial-location {
-  color: #222;
+  color: #111;
 }
 
 .testimonial-author {
@@ -166,9 +173,9 @@ a, .nav-link, .navbar-brand {
   font-weight: normal;
 }
 
-/* Make labels and form text darker */
+/* Make labels, small headings, and form text very dark */
 label, .small-heading, .form-check-label {
-  color: #222;
+  color: #111;
 }
 
 .radio-text {
@@ -284,4 +291,13 @@ textarea.form-control {
 .footer {
   background-color: #f9f9f9;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+  color: #111;
+  background-color: #f5f5f5;
+}
+
+/* Ensure form input text is dark */
+input, select, textarea {
+  color: #111;
+  background-color: #fff;
+  border: 1px solid #bbb;
 }
