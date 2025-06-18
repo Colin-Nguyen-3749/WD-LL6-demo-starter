@@ -1,7 +1,7 @@
 body {
   background-color: #eaeaea;
   font-family: "Times New Roman", Times, serif;
-  color: #999;
+  color: #111;
   padding: 0;
   top: 0 !important;
 }
@@ -22,7 +22,7 @@ body {
 .navbar-brand {
   font-size: 22px;
   letter-spacing: 1px;
-  color: #aaa;
+  color: #111;
 }
 
 /* Make all links and navbar links very dark for contrast */
@@ -59,7 +59,7 @@ a, .nav-link, .navbar-brand {
 .testimonials-section h2 {
   font-size: 28px;
   letter-spacing: 1px;
-  color: #b0b0b0;
+  color: #111;
 }
 
 .testimonial-card {
@@ -83,7 +83,7 @@ a, .nav-link, .navbar-brand {
   background-color: rgba(240, 240, 240, 0.9);
   font-size: 14px;
   font-weight: bold;
-  color: #999;
+  color: #111;
   border-radius: 0 0 5px 0;
 }
 
@@ -108,7 +108,7 @@ a, .nav-link, .navbar-brand {
 
 .testimonial-2 .quote-icon {
   font-size: 36px;
-  color: #ddd;
+  color: #111;
 }
 
 /* Testimonial 3 */
@@ -135,7 +135,7 @@ a, .nav-link, .navbar-brand {
   margin-bottom: 15px;
   font-size: 15px;
   line-height: 1.5;
-  color: #aaaaaa;
+  color: #111;
 }
 
 /* Make testimonial text, author, and location very dark */
@@ -147,12 +147,12 @@ a, .nav-link, .navbar-brand {
   font-weight: 600;
   margin-bottom: 2px;
   font-size: 14px;
-  color: #999;
+  color: #111;
 }
 
 .testimonial-location {
   font-size: 12px;
-  color: #aaa;
+  color: #111;
   margin-bottom: 0;
 }
 
@@ -169,7 +169,7 @@ a, .nav-link, .navbar-brand {
   letter-spacing: 1px;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #777;
+  color: #111;
   font-weight: normal;
 }
 
@@ -180,7 +180,7 @@ label, .small-heading, .form-check-label {
 
 .radio-text {
   font-size: 14px;
-  color: #999;
+  color: #111;
   margin-left: 5px;
 }
 
@@ -239,7 +239,7 @@ textarea.form-control {
 .error-message {
   display: none;
   font-size: 12px;
-  color: #c0a0a0;
+  color: #111;
   margin-top: 5px;
   font-style: italic;
   font-weight: 500;
@@ -270,7 +270,7 @@ textarea.form-control {
 .goog-te-gadget {
   font-family: "Times New Roman", Times, serif !important;
   font-size: 14px !important;
-  color: #999 !important;
+  color: #111 !important;
 }
 
 .goog-te-gadget .goog-te-combo {
