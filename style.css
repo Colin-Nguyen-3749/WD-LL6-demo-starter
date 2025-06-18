@@ -6,6 +6,12 @@ body {
   top: 0 !important;
 }
 
+/* Make body text dark for good contrast */
+body {
+  color: #222; /* Very dark gray text */
+  background-color: #fff; /* White background */
+}
+
 /* Navbar Styles */
 .navbar {
   background-color: #f8f8f8;
@@ -17,6 +23,11 @@ body {
   font-size: 22px;
   letter-spacing: 1px;
   color: #aaa;
+}
+
+/* Make links and navbar links dark for contrast */
+a, .nav-link, .navbar-brand {
+  color: #111 !important;
 }
 
 .nav-link {
@@ -51,6 +62,12 @@ body {
   flex-direction: column;
   transition: all 0.3s ease;
   position: relative;
+}
+
+/* Optional: Add a subtle background to testimonial cards for contrast */
+.testimonial-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
 }
 
 .testimonial-number {
@@ -114,6 +131,11 @@ body {
   color: #aaaaaa;
 }
 
+/* Make testimonial text darker */
+.testimonial-text, .testimonial-author, .testimonial-location {
+  color: #222;
+}
+
 .testimonial-author {
   font-weight: 600;
   margin-bottom: 2px;
@@ -142,6 +164,11 @@ body {
   text-transform: uppercase;
   color: #777;
   font-weight: normal;
+}
+
+/* Make labels and form text darker */
+label, .small-heading, .form-check-label {
+  color: #222;
 }
 
 .radio-text {
@@ -189,14 +216,16 @@ textarea.form-control {
   margin-right: 8px;
 }
 
+/* Make button text dark on light background */
 .btn-outline-dark {
   border-radius: 0;
   padding: 8px 30px;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 14px;
-  color: #b0b0b0;
-  border-color: #d0d0d0;
+  color: #111;
+  border-color: #111;
+  background-color: #fff;
 }
 
 /* Form validation styles */
