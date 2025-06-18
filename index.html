@@ -107,45 +107,56 @@
         <!-- Contact Form -->
         <div class="contact-form">
           <h2 class="text-center mb-5">Reach out</h2>
+          <!-- Label for Name input -->
           <div class="form-group mb-4">
+            <label for="name">Full Name *</label>
             <input type="text" class="form-control" id="name" placeholder="Enter your full name *">
           </div>
 
+          <!-- Label for Email input -->
           <div class="form-group mb-4">
+            <label for="email">Email Address *</label>
             <input type="email" class="form-control" id="email" placeholder="example@email.com *">
           </div>
 
+          <!-- Label for Session Type radio group -->
           <div class="form-group mb-4">
-            <p class="small-heading">SESSION TYPE *</p>
+            <p class="small-heading" id="sessionTypeLabel">SESSION TYPE *</p>
             <div class="radio-options">
+              <!-- Each radio input has a label for accessibility -->
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="sessionType" id="wedding" value="Wedding">
-                <span class="radio-text">Wedding</span>
+                <input class="form-check-input" type="radio" name="sessionType" id="wedding" value="Wedding" aria-labelledby="sessionTypeLabel weddingLabel">
+                <label id="weddingLabel" for="wedding" class="form-check-label">Wedding</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="sessionType" id="engagement" value="Engagement">
-                <span class="radio-text">Engagement</span>
+                <input class="form-check-input" type="radio" name="sessionType" id="engagement" value="Engagement" aria-labelledby="sessionTypeLabel engagementLabel">
+                <label id="engagementLabel" for="engagement" class="form-check-label">Engagement</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="sessionType" id="editorial" value="Editorial">
-                <span class="radio-text">Editorial</span>
+                <input class="form-check-input" type="radio" name="sessionType" id="editorial" value="Editorial" aria-labelledby="sessionTypeLabel editorialLabel">
+                <label id="editorialLabel" for="editorial" class="form-check-label">Editorial</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="sessionType" id="lifestyle" value="Lifestyle">
-                <span class="radio-text">Lifestyle</span>
+                <input class="form-check-input" type="radio" name="sessionType" id="lifestyle" value="Lifestyle" aria-labelledby="sessionTypeLabel lifestyleLabel">
+                <label id="lifestyleLabel" for="lifestyle" class="form-check-label">Lifestyle</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="sessionType" id="other" value="Other">
-                <span class="radio-text">Other</span>
+                <input class="form-check-input" type="radio" name="sessionType" id="other" value="Other" aria-labelledby="sessionTypeLabel otherLabel">
+                <label id="otherLabel" for="other" class="form-check-label">Other</label>
               </div>
             </div>
           </div>
 
+          <!-- Label for Other Info input -->
           <div class="form-group mb-4">
+            <label for="otherInfo">Describe your session type</label>
             <input type="text" class="form-control" id="otherInfo" placeholder="Please describe your session type">
           </div>
 
+          <!-- Label for How did you hear select -->
           <div class="form-group mb-4">
+            <!-- Added label for the select element below -->
+            <label for="hearAbout">How did you hear about me?</label>
             <select class="form-select" id="hearAbout">
               <option selected disabled>How did you hear about me?</option>
               <option value="google">Google</option>
@@ -156,7 +167,9 @@
             </select>
           </div>
 
+          <!-- Label for Message textarea -->
           <div class="form-group mb-4">
+            <label for="message">Your Message *</label>
             <textarea class="form-control" id="message" rows="5"
               placeholder="Tell me more about what you're looking for... *"></textarea>
           </div>
