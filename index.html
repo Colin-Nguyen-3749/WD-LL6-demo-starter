@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <!-- Our local stylesheet -->
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- Document title for browser tab -->
+  <title>Atlas & Lens - Contact</title>
 </head>
 
 <body>
@@ -51,7 +53,8 @@
             <div class="testimonial-number">Testimonial 1</div>
             <div class="testimonial-image">
               <img
-                src="https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                src="https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Smiling woman, testimonial client">
             </div>
             <div class="testimonial-content">
               <p class="testimonial-text">"The photos of our wedding are magnificent. Each moment was captured
@@ -88,7 +91,8 @@
             </div>
             <div class="testimonial-image">
               <img
-                src="https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                src="https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Smiling woman, testimonial client">
             </div>
           </div>
         </div>
@@ -158,7 +162,12 @@
           </div>
 
           <div class="text-center mt-4">
-            <button type="submit" class="btn btn-outline-dark"> <i class="bi bi-send"></i> </button>
+            <!-- The button now has accessible text for screen readers and users -->
+            <button type="submit" class="btn btn-outline-dark">
+              <i class="bi bi-send"></i>
+              <!-- Accessible button text -->
+              Send Message
+            </button>
           </div>
         </div>
       </div>
